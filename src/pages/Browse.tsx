@@ -1,5 +1,3 @@
-import { Swiper, SwiperSlide } from "swiper/react"
-import CityCard from "../components/CityCard";
 import BrowseCityWrapper from '../wrappers/BrowserCityWrapper';
 import BrowseOfficeWrapper from "../wrappers/BrowseOfficeWrapper";
 
@@ -145,7 +143,7 @@ export default function Browse() {
                 </div>
             </header>
 
-            // SECTION CITY SWIPER WRAPPER
+            {/* SECTION CITY SWIPER WRAPPER */}
             <BrowseCityWrapper></BrowseCityWrapper>
             <section
                 id="Benefits"
