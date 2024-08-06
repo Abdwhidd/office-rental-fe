@@ -981,6 +981,10 @@ video {
        column-gap: 1.25rem;
 }
 
+.element-style-left {
+  text-align: left;
+}
+
 .gap-y-\[30px\] {
   row-gap: 30px;
 }

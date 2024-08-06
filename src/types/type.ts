@@ -5,9 +5,10 @@ export interface Office {
     name: string,
     slug: string,
     city: City,
+    address: string,
     thumbnail: string,
     photos: Photos[],
-    Benefits: Benefits[],
+    benefits: Benefits[],
     about: string
 }
 
@@ -27,7 +28,7 @@ export interface City {
     photo: string,
     slug: string
     officeSpaces_count: number,
-    officeSpace: Office[]
+    officeSpaces: Office[]
 }
 
 export interface BookingDetails {
